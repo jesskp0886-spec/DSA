@@ -3,35 +3,35 @@ using namespace std;
 
 int main(){
 
-    int n;
-    cout << "Enter the size of array :";
-    cin >> n;
+    int arr[100],size,i,j,k;
 
-    int arr[n];
+    cout << "Enter Size Of Array : ";
+    cin >> size;
 
-    cout << "Enter array element :"<< endl;
-    for(int i = 0; i < n; i++){
-        cout << "Index of ["<< i <<"] is : ";
+
+    cout << "Enter Array Elements : ";
+    for(i=0; i < size; i++){
         cin >> arr[i];
     }
 
-    cout << "Entered array :";
-    for(int i = 0; i < n; i++){
-        cout << arr[i] << " ";
-    }
-    cout << endl;
+    for(i=0; i < size; i++){
+        for(j = i + 1; j < size; j++){
+            if(arr[i] == arr [j]){
 
-    cout << "After remove element array :";
-    for(int i = 0; i < n; i++){
-        bool found = false;
-        for(int j = 0; j < i; j++){
-            if(arr[i] == arr[j]){
-                found = true;
-                break;
+                for(k = j;k < size - 1; k++){
+                arr[k] = arr[k + 1];
+    }
+
+    size--;
+    j--;
             }
         }
-        if(!found)
-            cout << arr[i] << " ";
     }
-    return 0;
+
+    cout << "Array After Remove Duplicate : ";
+    for(i=0; i < size; i++){
+        cout << arr[i] << " ";
+    }
+return 0;
+    
 }
