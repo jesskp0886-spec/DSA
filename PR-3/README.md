@@ -70,11 +70,12 @@ g++ DML.cpp
 
 ## 🔄 Example Operations
 
-* Insert: 10, 20, 30, 40, 50
+* Insert: 50, 40, 30, 20, 10
 * Display: 50 -> 40 -> 30 -> 20 -> 10 -> Null
 * Search: Element 30 found at position 3
+* Reverse: 10 -> 20 -> 30 -> 40 -> 50
 * Delete: Element 30 deleted successfully
-* Reverse: 10 -> 20 -> 40 -> 50
+* Display: 50 -> 40 -> 20 -> 10 
 
 ---
 
