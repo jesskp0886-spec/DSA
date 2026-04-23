@@ -65,8 +65,8 @@ g++ DML.cpp
 ## 📷 Output Screenshots
 
 ![OUTPUT](https://raw.githubusercontent.com/jesskp0886-spec/DSA/main/PR-3/%7B95C8CE3C-C1EA-4126-B6D8-06BBAF3AFE77%7D.png)
-![OUTPUT2](%7B93B42DD8-03F4-4D17-9259-00...%7D.png)
-![OUTPUT3](%7B95C8CE3C-C1EA-4126-B6D8-06...%7D.png)
+![OUTPUT2]({93B42DD8-03F4-4D17-9259-00D7D88DFAB5})
+![OUTPUT3]({95C8CE3C-C1EA-4126-B6D8-06BBAF3AFE77})
 ---
 
 ## 🔄 Example Operations
