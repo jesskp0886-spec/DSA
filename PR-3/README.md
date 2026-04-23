@@ -91,7 +91,3 @@ This project helps in understanding the working of linked lists and dynamic memo
 
 ---
 
-## 👩‍💻 Author
-
-* Name: *Your Name Here*
-* Course: DSA with C++
