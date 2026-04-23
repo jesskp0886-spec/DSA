@@ -64,7 +64,7 @@ g++ DML.cpp
 
 ## 📷 Output Screenshots
 
-![OUTPUT](PR-3/{95C8CE3C-C1EA-4126-B6D8-06BBAF3AFE77}.png)
+![OUTPUT](https://raw.githubusercontent.com/jesskp0886-spec/DSA/main/PR-3/%7B95C8CE3C-C1EA-4126-B6D8-06BBAF3AFE77%7D.png)
 
 ---
 
