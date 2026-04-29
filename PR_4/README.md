@@ -43,29 +43,9 @@ A stack follows the **LIFO (Last In First Out)** principle, similar to an escala
 
 ## 📸 Output Screenshots
 
-### 🔹 Push Operation
-
-![Output 1](PR-4/Output1.png)
-
-### 🔹 Stack Full Condition
-
-![Output 2](output/PR-4-output-image-2.png)
-
-### 🔹 Display Stack & Top Element
-
-![Output 3](output/PR-4-output-image-3.png)
-
-### 🔹 Pop Operation
-
-![Output 4](output/PR-4-output-image-4.png)
-
-### 🔹 Empty & Final State
-
-![Output 5](output/PR-4-output-image-5.png)
-
-### 🔹 Exit Program
-
-*(Final output showing exit option selected)*
+![Output 1](Output-1.png)
+![Output 2](Output-2.png)
+![Output 3](Output-3.png)
 
 ---
 
