@@ -53,15 +53,13 @@ A stack follows the **LIFO (Last In First Out)** principle, similar to an escala
 
 ## 📂 Project Structure
 
-PR-4/
+PR-4
 │── Escalator.cpp
 │── README.md
-│── output/
-  ├── PR-4-output-image-1.png
-  ├── PR-4-output-image-2.png
-  ├── PR-4-output-image-3.png
-  ├── PR-4-output-image-4.png
-  ├── PR-4-output-image-5.png
+├── Output-1.png
+├── Output-2.png
+├── Output-3.png
+  
 
 ---
 
@@ -70,7 +68,3 @@ PR-4/
 This project helped in understanding the working of stack operations like push and pop using arrays in C++. It also demonstrates menu-driven programming for better user interaction.
 
 ---
-
-## 👩‍💻 Author
-
-Tisha Mali
