@@ -44,7 +44,9 @@ A stack follows the **LIFO (Last In First Out)** principle, similar to an escala
 ## 📸 Output Screenshots
 
 ![Output 1](Output-1.png)
+
 ![Output 2](Output-2.png)
+
 ![Output 3](Output-3.png)
 
 ---
