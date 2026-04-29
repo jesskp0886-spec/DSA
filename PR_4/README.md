@@ -1,81 +1,94 @@
-📦 Stack Data Structure Implementation (C++)
+# 📚 PR-4: Stack Implementation (Escalator Concept)
 
-A well-structured and interactive implementation of the Stack (LIFO) data structure using C++. This project demonstrates core stack operations through a menu-driven console application, making it ideal for beginners learning Data Structures and Object-Oriented Programming.
+## 📌 Overview
 
-📖 Overview
+This project demonstrates the implementation of a **Stack Data Structure** using arrays in C++.
+A stack follows the **LIFO (Last In First Out)** principle, similar to an escalator where the last person entering exits first.
 
-This project implements a fixed-size stack using an array and encapsulates all operations within a class. It provides a clean and intuitive interface for performing standard stack operations.
+---
 
-The program follows the Last-In, First-Out (LIFO) principle, where the last element inserted is the first one to be removed.
+## ⚙️ Features
 
-✨ Key Features
-  🔹 Object-Oriented design using classes
-  🔹 Menu-driven interactive interface
-  🔹 Efficient stack operations (O(1) time complexity)
-  🔹 Input validation for overflow and underflow conditions
-  🔹 Clear console output for better user experience
-  
-🧠 Core Operations
-  Operation	Description
-  push()	Inserts an element into the stack
-  pop()	Removes the top element
-  display()	Displays all elements from top to bottom
-  isEmpty()	Checks whether the stack is empty
-  isFull()	Checks whether the stack is full
-  topElement()	Retrieves the top element without removing it
-  
-⚙️ Implementation Details
-  Language: C++
-  Data Structure: Array-based Stack
-  Maximum Capacity: 100 elements
-  Time Complexity:
-  Push: O(1)
-  Pop: O(1)
-  Top: O(1)
+* Push an element into the stack
+* Pop an element from the stack
+* Display the top element
+* Check if the stack is empty
+* Check if the stack is full
+* Display all elements in the stack
 
-🚀 Getting Started
-🔧 Prerequisites
-  C++ Compiler (e.g., GCC)
-▶️ Compile the Program
-  g++ Escalator.cpp 
-▶️ Run the Program
-  ./a.exe
+---
 
-📸 Output Images 
-![Stack Output](PR-4/Output-1.png)
-![Stack Output](PR-4/Output-2.png)
-![Stack Output](PR-4/Output-3.png)
-  
-🖥️ Sample Execution
-~~~~~~  WELCOME  ~~~~~~
-~~~~~ Stack Operation ~~~~~
+## 🧠 Concepts Used
 
-Enter The Size of Stack : 5
+* Class & Object
+* Encapsulation
+* Menu-driven programming
+* Array implementation of stack
 
-1. Push an Element
-2. Pop an Element
-3. Display Stack
-4. Check if Empty
-5. Check if Full
-6. Display Top Element
-0. Exit
+---
 
-⚠️ Limitations
-  Fixed-size implementation (no dynamic resizing)
-  Uses static array instead of dynamic memory
-  Console-based interface only
+## 🛠️ How to Run
 
+1. Open terminal
 
-🚀 Future Enhancements
-🔄 Dynamic stack implementation using pointers (Linked List)
-🧵 Exception handling for robust error management
-🎨 GUI-based visualization of stack operations
-📊 Performance comparison with other data structures
-🎯 Learning Outcomes
+2. Compile the program:
+   g++ Escalator.cpp
 
-Through this project, you will understand:
+3. Run the program:
+   ./a.exe
 
-Stack fundamentals and LIFO behavior
-Implementation using arrays
-Handling edge cases (overflow & underflow)
-Basics of Object-Oriented Programming in C++
+4. Follow menu instructions
+
+---
+
+## 📸 Output Screenshots
+
+### 🔹 Push Operation
+
+![Output 1](PR-4/Output1.png)
+
+### 🔹 Stack Full Condition
+
+![Output 2](output/PR-4-output-image-2.png)
+
+### 🔹 Display Stack & Top Element
+
+![Output 3](output/PR-4-output-image-3.png)
+
+### 🔹 Pop Operation
+
+![Output 4](output/PR-4-output-image-4.png)
+
+### 🔹 Empty & Final State
+
+![Output 5](output/PR-4-output-image-5.png)
+
+### 🔹 Exit Program
+
+*(Final output showing exit option selected)*
+
+---
+
+## 📂 Project Structure
+
+PR-4/
+│── Escalator.cpp
+│── README.md
+│── output/
+  ├── PR-4-output-image-1.png
+  ├── PR-4-output-image-2.png
+  ├── PR-4-output-image-3.png
+  ├── PR-4-output-image-4.png
+  ├── PR-4-output-image-5.png
+
+---
+
+## 🎯 Conclusion
+
+This project helped in understanding the working of stack operations like push and pop using arrays in C++. It also demonstrates menu-driven programming for better user interaction.
+
+---
+
+## 👩‍💻 Author
+
+Tisha Mali
